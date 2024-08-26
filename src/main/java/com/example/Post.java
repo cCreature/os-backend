@@ -61,4 +61,8 @@ public class Post extends PanacheMongoEntity {
     public int hashCode() {
         return Objects.hash(this.title, this.content, this.timestamp);
     }
+
+    public void newFunction(){
+        System.out.println("Test");
+    }
 }
