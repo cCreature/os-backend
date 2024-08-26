@@ -63,6 +63,6 @@ public class Post extends PanacheMongoEntity {
     }
 
     public void newFunction(){
-        System.out.println("Test");
+        System.out.println("Test new");
     }
 }
